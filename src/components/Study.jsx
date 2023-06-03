@@ -9,10 +9,10 @@ export default function Study() {
         <MdShoppingBag className="exp-icon" />
         <div className="text-content">
           <h3>Google</h3>
-          <p>OCT 2015 - JUNE 2016</p>
+          <p className="yearTime">OCT 2015 - JUNE 2016</p>
         </div>
       </div>
-      <p>
+      <p className="para">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

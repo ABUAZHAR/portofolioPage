@@ -1,31 +1,41 @@
 .Study{
-    border: 1px solid dimgray;
+    border: 1px solid silver;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    .top-content{
-        border: 1px solid dimgray;
+    box-shadow: 0px 3px  1px silver;
+    width: 350px;
+    height: auto;
+        .top-content{
+        border-bottom: 1px solid silver;
         display: flex;
+        padding: 5px;
         gap: 10px;
         align-items: flex-start;
         justify-content: flex-start;
         .exp-icon{
-            font-size: xx-large;
+            font-size: 42px;
             background-color: #ef9795;
             color: white;
-            padding: 9px;
+            padding:8px;
             border-radius: 50%;
         }
+        .text-content{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
         h3{
             font-size:1rem ;
-            opacity: 0.7;
+            opacity: 0.9;
         }
         p{
             color: silver;
-            font-size: smaller;
+            font-size: 10px;
+            text-align: start;
         }
     }
-    p{
+    }
+    .para{
+        padding: 5px;
         color:silver;
         font-size: small;
     }

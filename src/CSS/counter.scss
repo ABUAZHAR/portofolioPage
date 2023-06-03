@@ -1,0 +1,25 @@
+.Counter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    .smile{
+        background-color: #ed8a89;
+
+        font-size: xx-large;
+        // color: #ed8a89;
+        border-radius: 50%;
+        color: white;
+    }
+    .counter-texts{
+        h2{
+            color: black;
+            font-size: small;
+        }
+        p{
+            color: silver;
+            font-size: small;
+        }
+    }
+}

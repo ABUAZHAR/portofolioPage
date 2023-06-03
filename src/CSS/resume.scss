@@ -1,0 +1,32 @@
+.Resume {
+  border: 2px solid red;
+  background-color: white;
+  background-color: white;
+  width: 100%;
+  color: black;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  height: 93vh;
+  .Right-resume {
+    width: 850px;
+    border: 2px solid red;
+    overflow-y: scroll;
+    height: 93vh;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .study{
+        // border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .experience{
+            // border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+  }
+}

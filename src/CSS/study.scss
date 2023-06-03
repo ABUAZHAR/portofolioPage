@@ -1,0 +1,32 @@
+.Study{
+    border: 1px solid dimgray;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    .top-content{
+        border: 1px solid dimgray;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        .exp-icon{
+            font-size: xx-large;
+            background-color: #ef9795;
+            color: white;
+            padding: 9px;
+            border-radius: 50%;
+        }
+        h3{
+            font-size:1rem ;
+            opacity: 0.7;
+        }
+        p{
+            color: silver;
+            font-size: smaller;
+        }
+    }
+    p{
+        color:silver;
+        font-size: small;
+    }
+}

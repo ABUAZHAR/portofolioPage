@@ -1,0 +1,166 @@
+.About {
+  background-color: white;
+  width: 100%;
+  color: black;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  height: 93vh;
+  .Right-About {
+    width: 850px;
+    overflow-y: scroll;
+    height: 93vh;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .About-content {
+      width: 100%;
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      .small-img {
+        height: 340px;
+        width: 400px;
+        img {
+          height: 340px;
+          width: 400px;
+          background-position: center;
+          object-fit: cover;
+        }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          img {
+            display: flex;
+            width: 80%;
+            height: auto;
+          }
+        }
+      }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .small-img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .heading-cards {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+  flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .para {
+          display: flex;
+          // align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 10px;
+          border-bottom: 2px solid silver;
+          h2{
+            line-height: 50px;
+            font-size: 1.4rem;
+          }        
+          p {
+            color: dimgray;
+            font-size: 1rem;
+          }
+        }
+
+        .cards {
+          width: 100%;
+          display: flex;
+
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+      }
+    }
+    .CV-bttn{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      hr{
+        width: 100%;
+        border: 1px solid silver;
+      }
+      button{
+        width: 180px;
+        cursor: pointer;
+        height: 45px;
+        background-color: #ef9795;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 14px;
+        text-shadow: 0px 0px 1.4px dimgray;
+      }
+    }
+    .counter-works{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: space-between;
+    }
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Right-About {
+      display: flex;
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .Right-About {
+      display: flex;
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .Right-About {
+      display: flex;
+      width: 950px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .About {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .About {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .About {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+  }
+}

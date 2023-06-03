@@ -1,0 +1,22 @@
+.Headings{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:20px;
+    span{
+        padding: 0px 18px;
+        border-start-end-radius: 50%;
+        color: white;
+        font-size: 0.8rem;
+        border-end-end-radius: 50% ;
+        border-end-start-radius: 50%;
+        background-color: #f19896;
+        line-height: 30px;
+    }
+    h1{
+        font-size: 2.6rem;
+        text-decoration: underline 4px wavy #f19896;
+    }
+}
